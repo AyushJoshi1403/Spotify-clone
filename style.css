@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 body {
     background-color: antiquewhite;
 }
@@ -63,17 +64,17 @@ nav ul li {
     flex-direction: column;
 }
 
-.icons{
+.icons {
     margin-top: 14px;
 }
 
-.icons i{
+.icons i {
     cursor: pointer;
 }
 
 #myProgressBar {
     width: 80vw;
-    text-align: center;
+    cursor: pointer;
 }
 
 .songItemContainer {
@@ -105,16 +106,17 @@ nav ul li {
     margin: 0 23px;
 }
 
-.timestamp i{
+.timestamp i {
     cursor: pointer;
 }
 
 .songInfo {
     position: absolute;
     left: 10vw;
+    font-family: 'Varela Round', sans-serif;
 }
 
-.songInfo img{
+.songInfo img {
     opacity: 0;
-    transition: opacity 1s ease-in;
+    transition: opacity 0.4s ease-in;
 }
